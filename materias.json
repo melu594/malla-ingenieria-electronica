@@ -1,0 +1,47 @@
+[
+  // PRIMER AÑO (CBC)
+  { "nombre": "Pensamiento Científico", "año": 1, "estado": "pendiente", "correlativas": [] },
+  { "nombre": "Sociedad y Estado", "año": 1, "estado": "pendiente", "correlativas": [] },
+  { "nombre": "Pensamiento Computacional", "año": 1, "estado": "pendiente", "correlativas": [] },
+  { "nombre": "Física", "año": 1, "estado": "pendiente", "correlativas": [] },
+  { "nombre": "Análisis Matemático A", "año": 1, "estado": "pendiente", "correlativas": [] },
+  { "nombre": "Álgebra A", "año": 1, "estado": "pendiente", "correlativas": [] },
+
+  // SEGUNDO AÑO
+  { "nombre": "Análisis Matemático II", "año": 2, "estado": "pendiente", "correlativas": ["Análisis Matemático A"] },
+  { "nombre": "Física de los Sistemas de Partículas", "año": 2, "estado": "pendiente", "correlativas": ["Física"] },
+  { "nombre": "Introducción a la Ingeniería Electrónica", "año": 2, "estado": "pendiente", "correlativas": [] },
+  { "nombre": "Algoritmos y Programación", "año": 2, "estado": "pendiente", "correlativas": ["Pensamiento Computacional"] },
+  { "nombre": "Álgebra Lineal", "año": 2, "estado": "pendiente", "correlativas": ["Álgebra A"] },
+  { "nombre": "Electricidad, Magnetismo y Calor", "año": 2, "estado": "pendiente", "correlativas": ["Física"] },
+  { "nombre": "Introducción a los Dispositivos Electrónicos", "año": 2, "estado": "pendiente", "correlativas": ["Física"] },
+  { "nombre": "Sistemas Digitales", "año": 2, "estado": "pendiente", "correlativas": ["Álgebra A"] },
+
+  // TERCER AÑO
+  { "nombre": "Probabilidades y Estadística", "año": 3, "estado": "pendiente", "correlativas": ["Análisis Matemático II"] },
+  { "nombre": "Señales y Sistemas", "año": 3, "estado": "pendiente", "correlativas": ["Análisis Matemático II"] },
+  { "nombre": "Análisis de Circuitos", "año": 3, "estado": "pendiente", "correlativas": ["Electricidad, Magnetismo y Calor"] },
+  { "nombre": "Redes de Comunicaciones", "año": 3, "estado": "pendiente", "correlativas": ["Sistemas Digitales"] },
+  { "nombre": "Planificación de Proyectos", "año": 3, "estado": "pendiente", "correlativas": [] },
+  { "nombre": "Circuitos Microelectrónicos", "año": 3, "estado": "pendiente", "correlativas": ["Análisis de Circuitos"] },
+  { "nombre": "Procesos Estocásticos", "año": 3, "estado": "pendiente", "correlativas": ["Probabilidades y Estadística"] },
+  { "nombre": "Control Automático", "año": 3, "estado": "pendiente", "correlativas": ["Señales y Sistemas"] },
+  { "nombre": "Taller de Sistemas Embebidos", "año": 3, "estado": "pendiente", "correlativas": ["Sistemas Digitales"] },
+
+  // CUARTO AÑO
+  { "nombre": "Química y Electroquímica", "año": 4, "estado": "pendiente", "correlativas": [] },
+  { "nombre": "Electromagnetismo Aplicado", "año": 4, "estado": "pendiente", "correlativas": ["Electricidad, Magnetismo y Calor"] },
+  { "nombre": "Taller de Automatización y Control", "año": 4, "estado": "pendiente", "correlativas": ["Control Automático"] },
+  { "nombre": "Taller de Procesamiento de Señales", "año": 4, "estado": "pendiente", "correlativas": ["Señales y Sistemas"] },
+  { "nombre": "Dispositivos Semiconductores", "año": 4, "estado": "pendiente", "correlativas": ["Introducción a los Dispositivos Electrónicos"] },
+  { "nombre": "Taller de Comunicaciones Digitales", "año": 4, "estado": "pendiente", "correlativas": ["Redes de Comunicaciones"] },
+  { "nombre": "Taller de Diseño de Circuitos Electrónicos", "año": 4, "estado": "pendiente", "correlativas": ["Circuitos Microelectrónicos"] },
+  { "nombre": "Higiene y Seguridad", "año": 4, "estado": "pendiente", "correlativas": [] },
+  { "nombre": "Electivas/Optativas", "año": 4, "estado": "pendiente", "correlativas": [] },
+
+  // QUINTO AÑO
+  { "nombre": "Legislación y Ejercicio Profesional", "año": 5, "estado": "pendiente", "correlativas": [] },
+  { "nombre": "Gestión de Proyectos Electrónicos", "año": 5, "estado": "pendiente", "correlativas": ["Planificación de Proyectos"] },
+  { "nombre": "Trabajo Integrador Final de Ingeniería Electrónica", "año": 5, "estado": "pendiente", "correlativas": ["Gestión de Proyectos Electrónicos"] },
+  { "nombre": "Impacto Social, Ambiental y Desarrollo Sustentable", "año": 5, "estado": "pendiente", "correlativas": [] }
+]
