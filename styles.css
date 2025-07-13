@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.materia {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 8px;
+  min-width: 200px;
+  text-align: center;
+}
+
+.aprobada {
+  background-color: #c8f7c5;
+}
+
+.en\ curso {
+  background-color: #ffeaa7;
+}
+
+.pendiente {
+  background-color: #fab1a0;
+}
